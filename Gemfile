@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+git_source(:github) { |repo| "https://github.com/ViniciusFlag/hello-app.git" }
 
 ruby "3.3.6"
 
@@ -28,4 +28,8 @@ group :test do
   gem "capybara", "3.40.0"
   gem "selenium-webdriver", "4.9.0"
   gem "webdrivers", "5.3.1"
+end
+
+group :production do
+  gem "pg", "1.5.9"
 end
