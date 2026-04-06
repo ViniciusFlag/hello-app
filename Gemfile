@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/ViniciusFlag/hello-app.git" }
 ruby "3.3.6"
 
 gem "rails", "8.1.3"
-gem "propshaft", "1.2.1"
+gem "propshaft", "1.3.1"
 gem "importmap-rails", "2.1.0"
 gem "turbo-rails", "2.0.14"
 gem "stimulus-rails", "1.3.4"
